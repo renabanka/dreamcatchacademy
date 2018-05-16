@@ -12,6 +12,15 @@
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 1px and up) */
+@media only screen 
+  and (min-device-width: 10px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+#get-started-btn 
+{ display:block;}
+}
+
+
 @media (min-width: @screen-sm-min) { 
 #get-started-btn 
 { display:block;}
