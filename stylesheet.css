@@ -1,9 +1,10 @@
 #get-started-btn {
   margin-left:auto;
   margin-right:auto;
+  margin-bottom:auto;
+  margin-top:auto;
   display:block;
   background-color:white;
-  margin-bottom: 12rem;
   color: #12343C;
   border-color: #12343C;
 }
